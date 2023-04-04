@@ -113,7 +113,7 @@ class Bear extends Animal {
     #furLength
     #type
 
-    constructor (name, age, clawSize, furLength, changeAge) {
+    constructor (name, age, clawSize, furLength,) {
         super(name, age, changeAge)
         this.#clawSize = clawSize;
         this.#furLength = furLength;
@@ -134,7 +134,7 @@ class Shark extends Animal{
     #finSize
     #type
 
-    constructor (name, age, swimmingSpeed, finSize, changeAge) {
+    constructor (name, age, swimmingSpeed, finSize, ) {
         super(name, age, changeAge);
         this.#swimmingSpeed = swimmingSpeed;
         this.#finSize = finSize;
